@@ -1972,7 +1972,7 @@ var WIFI_REGISTRY = {
         {
           "date": "2026-10",
           "text": "Starlink rollout completed across the transatlantic fleet: every A330 (including the A330-300s), all 8 A321LRs and all 6 A321XLRs",
-          "source": "https://www.travelextra.ie/aer-lingus-completes-starlink-rollout-across-narrowbody-transatlantic-fleet/"
+          "source": "https://www.aerlingus.com/experience/onboard-features/wifi-in-the-sky/starlink-wifi/"
         }
       ]
     },
@@ -1993,6 +1993,7 @@ var WIFI_REGISTRY = {
       "https://runwaygirlnetwork.com/2026/03/press-release-aer-lingus-takes-off-with-starlink-inflight-wi-fi/",
       "https://onemileatatime.com/news/aer-lingus-free-starlink-wi-fi/",
       "https://apex.aero/articles/aer-lingus-marks-starlink-wi-fi-go-live/",
+      "https://www.aerlingus.com/experience/onboard-features/wifi-in-the-sky/starlink-wifi/",
       "https://www.travelextra.ie/aer-lingus-completes-starlink-rollout-across-narrowbody-transatlantic-fleet/"
     ]
   },
