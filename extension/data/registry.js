@@ -1971,7 +1971,7 @@ var WIFI_REGISTRY = {
         },
         {
           "date": "2026-10",
-          "text": "Starlink rollout completed across the transatlantic fleet: every A330 (including the A330-300s), all 8 A321LRs and all 6 A321XLRs",
+          "text": "Starlink rollout completed across the transatlantic fleet: all 12 A330-300s, all 8 A321LRs and all 6 A321XLRs (the two A330-200s are being parked without it)",
           "source": "https://www.aerlingus.com/experience/onboard-features/wifi-in-the-sky/starlink-wifi/"
         }
       ]
@@ -1980,8 +1980,13 @@ var WIFI_REGISTRY = {
     "rules": [
       {
         "types": "A330|A321",
-        "provider": "Starlink on the whole transatlantic fleet: every A330 (including the A330-300s), all 8 A321LRs and all 6 A321XLRs (first flight 29 March 2026, A330 EI-EIN DUB-JFK)",
+        "provider": "Starlink on the transatlantic fleet: all 12 A330-300s, all 8 A321LRs and all 6 A321XLRs (first flight 29 March 2026, A330 EI-EIN DUB-JFK)",
         "orbit": "LEO"
+      },
+      {
+        "types": "A330-200|A332",
+        "provider": "No Starlink on the two remaining A330-200s (EI-DAA, EI-DUO), which are being parked; legacy Panasonic GEO",
+        "orbit": "GEO"
       }
     ],
     "access": "Free for all passengers on Starlink-equipped aircraft.",
@@ -1989,6 +1994,8 @@ var WIFI_REGISTRY = {
     "confidence": "sourced",
     "as_of": "2026-10",
     "sources": [
+      "https://travelupdate.com/aer-lingus-has-starlink-usa/",
+      "https://www.thecontrail.org/aer-lingus-starlink-wifi/",
       "https://mediacentre.aerlingus.com/news/work-stream-or-game-aer-lingus-takes-off-with-starlink-the-fastest-wi-fi-in-the-sky/29032026",
       "https://runwaygirlnetwork.com/2026/03/press-release-aer-lingus-takes-off-with-starlink-inflight-wi-fi/",
       "https://onemileatatime.com/news/aer-lingus-free-starlink-wi-fi/",
